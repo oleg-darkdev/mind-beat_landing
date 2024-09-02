@@ -12,6 +12,19 @@
         <h2 animate="from-bottom" class="heading-wp2024 z-index-2">Sędzia i organizator</h2>
       </div>
       <div class="spacer-xlarge"></div>
+
+      <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide mb-6">
+        <div class="splide__track w-dyn-list">
+          <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
+
+            <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item">
+              <img src="images/66bc6acd697b4fce73c12930_networking-wwp-2024.webp" loading="lazy" width="1500" height="1000" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <a href="/" class="inscription-wp2024_component w-inline-block">
         <div class="inscription-wp2024_content-top">
           <div class="icon-embed-medium w-embed">
@@ -29,7 +42,7 @@
           </div>
         </div>
 
-        
+
         <div class="inscription-wp2024_content-bottom">
           <h3 class="heading-wp2024 is-small">OLEG Dark.Dev</h3>
           <p class="text-size-medium text-color-neutral-wp2024">Mistrz Białorusi w szachach.</p>
