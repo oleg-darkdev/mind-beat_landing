@@ -4,15 +4,17 @@
       <a name="report"></a>
 
       <div class="container-large">
-        <h2 animate="from-bottom" class="heading-wp2024">Opinie</h2>
+        <h2  class="heading-wp2024">Opinie</h2>
         <div class="spacer-large"></div>
-        <div animate="from-bottom" class="gallery-wp2024_component">
+
+        <div  class="gallery-wp2024_component">
           <div class="gallery-wp2024_testi-wrapper splide">
             <div class="splide__track w-dyn-list">
               <div role="list" class="gallery-wp2024_testi-list splide__list w-dyn-items">
                 <div role="listitem" class="gallery-wp2024_testi-item splide__slide w-dyn-item">
                   <div class="gallery-wp2024_testi-author">
-                    <img src="images/66bb420ee6093e6b173a0398_philippe-marx.webp" loading="lazy" width="48" height="48" alt="" class="gallery-wp2024_testi-author-image">
+                    <!-- images/66bb420ee6093e6b173a0398_philippe-marx.webp -->
+                    <img src="" loading="lazy" width="48" height="48" alt="" class="gallery-wp2024_testi-author-image">
                     <div class="gallery-wp2024_testi-author-infos">
                       <div class="text-weight-medium"> the printing and</div>
                       <div class="text-color-neutral-wp2024">Lorem Ipsum is simply dummy text of</div>
@@ -32,7 +34,7 @@
 
 
             <div id="w-node-_64721ac8-7fe9-ca70-22cb-f57e3f75a853-ff719c49" class="splide__arrows">
-              <button aria-label="Voir le testimonial précédent" class="splide__arrow splide__arrow--prev">
+              <button class="splide__arrow splide__arrow--prev">
                 <div class="icon-embed-xsmall w-embed">
                   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                     <path d="M19.706 12.7921L8.11999 12.7921L12.62 17.2921L11.206 18.7061L4.29199 11.7921L11.206 4.87805L12.62 6.29205L8.11999 10.7921L19.706 10.7921L19.706 12.7921Z" fill="currentColor"></path>
@@ -48,11 +50,12 @@
               </button>
             </div>
           </div>
+
           <!-- images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023.webp -->
           <a href="#" class="video-wrap gallery-wp2024_lightbox-link w-inline-block w-lightbox">
-            <img src="" loading="lazy" width="1280" height="720" alt="thumbnail du récap vidéo de la WWP 2023" srcset="images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023-p-500.webp 500w, images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023-p-800.webp 800w, images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023-p-1080.webp 1080w, images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023.webp 1280w" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 57vw" class="gallery-wp2024_lightbox-image">
+            <img src="" loading="lazy" width="1280" height="720" alt=""  class="gallery-wp2024_lightbox-image">
             <div class="icon-embed-medium z-index-2 w-embed">
-              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 47 32" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 47 32" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                 <g clip-path="url(#clip0_62_118)">
                   <path d="M45.2172 4.99111C44.9561 4.02641 44.4469 3.14692 43.7403 2.44023C43.0336 1.73353 42.1541 1.22429 41.1894 0.9632C37.6577 0 23.4437 0 23.4437 0C23.4437 0 9.2289 0.0291555 5.69717 0.992356C4.73246 1.25346 3.85298 1.76273 3.14632 2.46946C2.43965 3.17619 1.93045 4.05571 1.66944 5.02044C0.601171 11.2956 0.186771 20.8576 1.69877 26.8818C1.95982 27.8465 2.46902 28.726 3.17569 29.4327C3.88235 30.1394 4.76182 30.6486 5.7265 30.9097C9.25824 31.8729 23.4726 31.8729 23.4726 31.8729C23.4726 31.8729 37.6869 31.8729 41.2184 30.9097C42.1831 30.6486 43.0626 30.1394 43.7693 29.4327C44.476 28.726 44.9853 27.8465 45.2463 26.8818C46.3731 20.5977 46.7203 11.0416 45.2172 4.99111Z" fill="#FF0000"></path>
                   <path d="M18.9196 22.7663L30.7112 15.9364L18.9196 9.10657V22.7663Z" fill="#FDFDFD"></path>
@@ -62,7 +65,7 @@
                     <rect width="45.5111" height="32" fill="white" ></rect>
                   </clipPath>
                 </defs>
-              </svg>
+              </svg> -->
             </div>
           </a>
 
