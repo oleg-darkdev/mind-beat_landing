@@ -1,4 +1,4 @@
-// import FactSheet from './ui/landing/FactSheet.svelte';
+import PatronStart from './ui/landing/PatronStart.svelte';
 
 
-// export { FactSheet };
+export { PatronStart };
