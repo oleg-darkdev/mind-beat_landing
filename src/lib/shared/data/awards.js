@@ -2,7 +2,7 @@ const awards = [
 
     {
         img: '/images/medals/honors_second.svg',
-        title: '2 miejsce',
+        title: 'Drugie',
         awards: [
             'Dyplom',
             'Bilet wejściowy do imprezki.'
@@ -10,7 +10,7 @@ const awards = [
     },
     {
         img: '/images/medals/honors_first.svg',
-        title: '1 miejsce',
+        title: 'Pierwsze',
         awards: [
             'Dyplom',
             'Bilet wejściowy do imprezki.',
@@ -20,7 +20,7 @@ const awards = [
     },
     {
         img: '/images/medals/honors_third.svg',
-        title: '3 miejsce',
+        title: 'Trzecie',
         awards: [
             'Dyplom',
             'Bilet wejściowy do imprezki.'
