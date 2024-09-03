@@ -13,19 +13,9 @@
       </div>
       <div class="spacer-xlarge"></div>
 
-      <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide mb-6">
-        <div class="splide__track w-dyn-list">
-          <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
 
-            <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item">
-              <img src="images/66bc6acd697b4fce73c12930_networking-wwp-2024.webp" loading="lazy" width="1500" height="1000" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
-            </div>
 
-          </div>
-        </div>
-      </div>
-
-      <a href="/" class="inscription-wp2024_component w-inline-block">
+      <a href="/" class="inscription-wp2024_component w-inline-block mb-6">
         <div class="inscription-wp2024_content-top">
           <div class="icon-embed-medium w-embed">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
@@ -49,7 +39,21 @@
         </div>
         <div class="wp2024-overlay"></div>
       </a>
+
+      <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide ">
+        <div class="splide__track w-dyn-list">
+          <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
+
+            <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item">
+              <img src="images/66bc6acd697b4fce73c12930_networking-wwp-2024.webp" loading="lazy" width="1500" height="1000" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+
+
   </div>
   <div class="inscription-wp2024_background"></div>
   <div id="inscription-canvas" class="inscription-wp2024_canvas"></div>
