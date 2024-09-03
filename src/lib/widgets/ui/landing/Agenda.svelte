@@ -1,36 +1,5 @@
 <script>
-
-  const agenda = [
-    {
-      title: 'Lorem Ipsum is simply dummy.',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      time: '16:30 - 18:30',
-      link: '/',
-      linkTitle: 'Lorem Ipsum is simply'
-    },
-    {
-      title: 'Lorem Ipsum is simply dummy.',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      time: '16:30 - 18:30',
-      link: '/',
-      linkTitle: 'Lorem Ipsum is simply'
-    },
-    {
-      title: 'Lorem Ipsum is simply dummy.',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      time: '16:30 - 18:30',
-      link: '/',
-      linkTitle: 'Lorem Ipsum is simply'
-    },
-    {
-      title: 'Lorem Ipsum is simply dummy.',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-      time: '16:30 - 18:30',
-      link: '/',
-      linkTitle: 'Lorem Ipsum is simply'
-    },
-
-  ]
+  import {agenda} from '$shared';
 </script>
 
 <section class="section_programme-wp2024">
@@ -45,10 +14,13 @@
         {#each agenda as {title, desc, time, link, linkTitle}}
         <li  class="programme-wp2024_item">
           <div class="programme-wp2024_content">
-            <h3 class="text-size-large">{title}<br>
+            <h3 class="text-size-large">
+              {title}
             </h3>
-            <p class="text-size-medium text-color-neutral-wp2024">{desc}</p>
-            {#if link.length != 0}
+            <p class="text-size-medium text-color-neutral-wp2024">
+              {desc}
+            </p>
+            {#if link.length > 2}
             <a href="{link}" target="_blank" class="navbar-wp2024_button is-programme w-inline-block">
               <div>{linkTitle}</div>
               <div class="button-wp2024_icon w-embed">
