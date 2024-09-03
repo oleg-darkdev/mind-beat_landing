@@ -1,13 +1,13 @@
 <script>
   const organisators = [
     {
-      text: 'LoremIpsum',
-      link: '/',
+      text: 'DarkDev.Foundation',
+      link: 'https://darkdev-foundation.vercel.app/',
       logo: '/images/logos/darkdev_turq.svg'
     },
     {
       text: 'Serum Food&Drinks',
-      link: '/',
+      link: 'https://www.facebook.com/serumgdansk/',
       logo: '/images/logos/serum.png'
     },
     // {
@@ -45,11 +45,11 @@
           </li>
           {/each}
             <li class="">
-            <a href="/" target="_blank" class='orga-wp2024_item' >
+            <a href="https://oleg-darkdev.vercel.app/"  target="_blank" class='orga-wp2024_item' >
             <div class="orga-wp2024_logo-wrapper">
-              <img src="" loading="lazy" width="200" height="200" alt="" class="orga-wp2024_logo">
+              <img src="/images/oleg-avatar.png" loading="lazy" width="200" height="200" alt="" class="orga-wp2024_logo">
             </div>
-            <div class="text-weight-medium">Oleg Medvedev</div>
+            <div class="text-weight-medium">Oleg <br/> Medvedev</div>
             </a>
           </li>
         </ul>
