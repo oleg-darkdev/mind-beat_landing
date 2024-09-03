@@ -11,6 +11,7 @@ import navigation from './data/navigation';
 
 // ui
 import RegistrationBtn from './ui/RegistrationBtn.svelte';
+import GoSponsor from './ui/GoSponsor.svelte';
 
 
-export { upcomingTournaments, faq, agenda, awards, RegistrationBtn, navigation };
+export { upcomingTournaments, faq, agenda, awards, RegistrationBtn, GoSponsor, navigation };
