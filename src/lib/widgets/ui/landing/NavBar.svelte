@@ -25,8 +25,8 @@
   </nav>
 
 
-  <div class="navbar-wp2024_container">
-    <div class="navbar-wp2024_menu-button w-nav-button flex flex-row justify-between w-full">
+  <div class="navbar-wp2024_container ">
+    <div class="navbar-wp2024_menu-button w-nav-button flex flex-row justify-between w-full desctop-hidden">
       <div class="h-auto w-20">
         <img src="/images/logo.svg" alt="MIND+BEAT logo">
       </div>
@@ -40,18 +40,18 @@
 
 
 
-    <nav role="navigation" class="navbar-wp2024_menu w-nav-menu mobile-hidden">
+    <nav role="navigation" class=" navbar-wp2024_menu w-nav-menu flex flex-row  mobile-hidden">
       <div class=" h-10 w-40">
         <img src="/images/logo.svg" alt="MIND+BEAT logo">
       </div>
 
-      <div class=''>
+      <div class='mr-20'>
         {#each navigation as {title, link}}
           <a href="{link}" class="navbar-wp2024_link w-nav-link">{title}</a>
         {/each}
       </div>
 
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-2 ">
         <GoSponsor />
 
         <RegistrationBtn />
@@ -105,6 +105,9 @@
     display: none;
   }
 }
+
+
+
 .navbar-wp2024_menu-button {
   padding: 0;
 }
