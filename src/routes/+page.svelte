@@ -23,7 +23,7 @@
   <Agenda />
 
   <Awards />
-  
+
   <Sponsors />
 
   <div style="display:none" class="sponsor-wp2024_modal">
@@ -65,9 +65,9 @@
 
   <Feedback />
 
-  <AboutMe />
-
   <Faq />
+
+  <AboutMe />
 </main>
 
 <Footer />
