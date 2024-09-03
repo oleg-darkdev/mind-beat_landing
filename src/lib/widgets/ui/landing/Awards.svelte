@@ -13,8 +13,8 @@
 
         <div style="background-image: url({award.img}); " class="card-award m-2 -mt-10 items-end flex max-w-sm">
             <div style="min-height: 200px; height: auto; width: 100%; " class="bg-[#111111] rounded-lg border border-[#146ef5] shadow-md flex max-w-sm flex-col p-4 sm:p-6">
-                <span class="text-6xl font-impact tracking-tight text-white text-center">
-                    {award.title}
+                <span class="text-6xl mb-4 tracking-tight text-white text-center">
+                    {award.title} <br/> miejsce
                 </span>
 
                 <ul class="text-color-neutral-wp2024 max-w-md list-disc list-inside space-y-1">
@@ -35,13 +35,15 @@
         </div>
     {/each}
 </div>
+   <div class="inscription-wp2024_background"></div>
+  <div  class="inscription-wp2024_canvas"></div>
 </div>
 </div>
 </section>
 
 <style>
     .card-award {
-        height: 440px;
+        height: 520px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
