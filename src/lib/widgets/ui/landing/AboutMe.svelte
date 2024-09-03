@@ -41,22 +41,16 @@
       </a>
 
       <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide ">
-        <div class="splide__track w-dyn-list">
-          <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
-
-            <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item">
-              <img src="images/66bc6acd697b4fce73c12930_networking-wwp-2024.webp" loading="lazy" width="1500" height="1000" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
+            <div class=" ">
+              <img src="/images/oleg-medvedev.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
             </div>
-
-          </div>
-        </div>
       </div>
     </div>
 
 
   </div>
-  <div class="inscription-wp2024_background"></div>
-  <div id="inscription-canvas" class="inscription-wp2024_canvas"></div>
+   <div class="inscription-wp2024_background"></div>
+  <div  class="inscription-wp2024_canvas"></div>
 </section>
 
 
