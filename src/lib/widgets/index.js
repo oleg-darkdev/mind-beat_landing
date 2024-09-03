@@ -7,8 +7,8 @@ import Feedback from './ui/landing/Feedback.svelte';
 import AboutMe from './ui/landing/AboutMe.svelte';
 import Footer from './ui/landing/Footer.svelte';
 import Faq from './ui/landing/Faq.svelte';
-// import Header from './ui/landing/Header.svelte';
+import Awards from './ui/landing/Awards.svelte';
 // import Header from './ui/landing/Header.svelte';
 
 
-export { Header, NavBar, Organisators, Agenda, Sponsors, Feedback, AboutMe, Footer, Faq };
+export { Header, NavBar, Organisators, Agenda, Sponsors, Feedback, AboutMe, Footer, Faq, Awards };
