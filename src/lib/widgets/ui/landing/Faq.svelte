@@ -4,20 +4,38 @@
 
 <section class="section_sponsor-wp2024">
   <div class="padding-global padding-section-medium">
-  <a name="faq"></a>
-  <!-- <h2  class="heading-wp2024 text-center">F.A.Q.</h2> -->
+    <a name="faq"></a>
+
+
+  <h2  class="heading-wp2024 text-center">F.A.Q.</h2>
     <div class="spacer-large"></div>
 
 
-    {#each faq as {q, a}}
-    <button class="sponsor-wp2024_button mb-4">
-      <div class="heading-wp2024">{q}?</div>
-      <div class="icon-embed-faq w-embed">
-        <img src="/images/arrow-down.svg" class='' alt="arrow down">
-      </div>
-      <div class="wp2024-overlay"></div>
-    </button>
-    {/each}
+    <div class="max-w-4xl mx-auto">
+      {#each faq as question}
+      <button on:click={()=> question.showAnswer = !question.showAnswer} class="big-btn mb-4">
+        <div class='flex flex-row justify-between w-full items-center content-center'>
+          <h3 class="text-size-large">{question.q}?</h3>
+          <div class="icon-embed-faq w-embed">
+            <img src="{question.showAnswer ? '/images/arrow-up.svg': '/images/arrow-down.svg'}" class='' alt="">
+          </div>
+        </div>
+        <div class="wp2024-overlay"></div>
+          {#if question.showAnswer}
+          <div class="flex flex-col items-start">
+            {#each question.a as answer}
+              <p class="text-size-medium leading-relaxed mb-4">
+                {answer}
+              </p>
+            {/each}
+            </div>
+          {/if}
+
+      </button>
+
+
+      {/each}
+    </div>
   </div>
 </section>
 
@@ -34,7 +52,7 @@
 
 
 .inscription-wp2024_component .icon-embed-faq,
-.sponsor-wp2024_button .icon-embed-faq {
+.big-btn .icon-embed-faq {
   position: relative;
   z-index: 0;
   top: 0rem;
@@ -43,8 +61,36 @@
 }
 
 .inscription-wp2024_component:hover .icon-embed-faq,
-.sponsor-wp2024_button:hover .icon-embed-faq {
+.big-btn:hover .icon-embed-faq {
   top: -0.5rem;
   right: -0.5rem;
+}
+
+
+.big-btn {
+  z-index: 1;
+  grid-column-gap: 1rem;
+  border: 1px solid var(--wp-2024--blue);
+  text-align: left;
+  background-color: #146ef51f;
+  border-radius: 0.25rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .big-btn {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .big-btn {
+    padding: 1.25rem;
+  }
 }
 </style>
