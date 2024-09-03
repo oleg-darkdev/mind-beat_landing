@@ -1,17 +1,21 @@
 <script>
-  import {upcomingTournaments} from '$shared';
+  import {upcomingTournaments, RegistrationBtn} from '$shared';
 </script>
 
 <header class="section_header-wp2024 mb-20">
     <div class="padding-global">
       <div class="container-large">
         <div class="header-wp2024_component">
-          <h1 class="heading-wp2024 is-big">Lorem Ipsum is simply</h1>
+          <h1 class="heading-wp2024 is-big">
+            Gra umysłu i rytm serca.
+          </h1>
 
           <div class="header-wp2024_infos-wrapper">
-            {#each upcomingTournaments as {place, date, time}}
+            {#each upcomingTournaments.slice(0,3) as {place, date, time, location}}
             <div  class="header-wp2024_item">
-              <div class="wp2024-tag">{place}</div>
+              <a href="{location}" target='_blank '>
+                <div class="wp2024-tag">{place}</div>
+              </a>
               <div class="text-size-large">{date}</div>
               <div class="text-size-medium text-color-neutral-wp2024">Start {time}</div>
             </div>
@@ -23,17 +27,17 @@
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
 
-            <a href="/" class="button-wp2024 w-inline-block">
-              <div>Lorem Ipsum has been</div>
-              <div class="button-wp2024_icon w-embed">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 18 18" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
-                  <path d="M4.38237 12.4016L10.5268 6.25717L5.7538 6.25717L5.7538 4.7574L13.0872 4.7574L13.0872 12.0908L11.5874 12.0908V7.31783L5.44303 13.4622L4.38237 12.4016Z" fill="currentColor"></path>
-                </svg>
-              </div>
-            </a>
+            <RegistrationBtn />
 
           </div>
-          <div class="date-countdown heading-wp2024 is-big">2024</div>
+
+          <div class='flex justify-end items-end content-end flex-col'>
+            <span class="date-countdown heading-wp2024 text-size-large">
+              Harmonogram na rok
+            </span>
+            <div class="date-countdown heading-wp2024 is-big">2024</div>
+          </div>
+
         </div>
       </div>
     </div>
