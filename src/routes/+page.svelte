@@ -1,7 +1,9 @@
 <script>
 	// import {  } from '$lib/shared';
-	import { Header, NavBar, Organisators, Agenda, Feedback, Sponsors, AboutMe, Footer, Faq} from '$lib/widgets';
+	import { Header, NavBar, Organisators, Awards, Agenda, Feedback, Sponsors, AboutMe, Footer, Faq} from '$lib/widgets';
   // import {  } from '$lib/entities'
+
+
 </script>
 
 
@@ -20,6 +22,8 @@
 
   <Agenda />
 
+  <Awards />
+  
   <Sponsors />
 
   <div style="display:none" class="sponsor-wp2024_modal">
