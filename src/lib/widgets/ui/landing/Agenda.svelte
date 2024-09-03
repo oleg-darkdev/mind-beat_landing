@@ -20,7 +20,7 @@
             <p class="text-size-medium text-color-neutral-wp2024">
               {desc}
             </p>
-            {#if link.length > 2}
+            {#if linkTitle.length > 1}
             <a href="{link}" target="_blank" class="navbar-wp2024_button is-programme w-inline-block">
               <div>{linkTitle}</div>
               <div class="button-wp2024_icon w-embed">

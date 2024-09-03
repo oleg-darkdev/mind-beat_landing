@@ -3,7 +3,7 @@ const agenda = [
       title: 'Rejestracja uczestników.',
       desc: 'Powitanie uczestników, ogłoszenie zasad turnieju. Dobry moment na zamówienie czegoś z baru.',
       time: '19:10 - 19:30',
-      link: '/registration',
+      link: '/',
       // ссылка на общую гугл форму с несколькими датами
       linkTitle: 'Rejestracja online'
     },
@@ -94,7 +94,7 @@ const agenda = [
       title: `RAVE.`,
       desc: 'Przejście od intelektualnej konkurencji do nocnej imprezki.',
       time: '22:00 - 04:00',
-      link: '/asdasdasd',
+      link: '/',
       // ссылка на конкретную вечеринку в тот день
       linkTitle: 'event name'
     },
