@@ -20,13 +20,14 @@ const navigation = [
     title: 'Opinie',
     link: '#report'
   },
-  {
-    title: 'Contact',
-    link: '#contact'
-  },
+
   {
     title: 'F.A.Q.',
     link: '#faq'
+  },
+    {
+    title: 'Contact',
+    link: '#contact'
   },
 ]
 
