@@ -11,4 +11,9 @@ import Awards from './ui/landing/Awards.svelte';
 // import Header from './ui/landing/Header.svelte';
 
 
-export { Header, NavBar, Organisators, Agenda, Sponsors, Feedback, AboutMe, Footer, Faq, Awards };
+
+// app
+import HeaderApp from './ui/app/Header.svelte';
+
+
+export { Header, NavBar, Organisators, Agenda, Sponsors, Feedback, AboutMe, Footer, Faq, Awards, HeaderApp };
