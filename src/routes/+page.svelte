@@ -63,7 +63,7 @@
     <div aria-label="fermer la modal" role="button" data-w-id="aacab12f-8def-4aa8-50c2-13e59bead31c" style="opacity:0" class="sponsor-wp2024_modal-overlay"></div>
   </div> -->
 
-  <!-- <Feedback /> -->
+  <Feedback />
 
   <Faq />
 
