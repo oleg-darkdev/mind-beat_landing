@@ -26,7 +26,7 @@
 
   <Sponsors />
 
-  <div style="display:none" class="sponsor-wp2024_modal">
+  <!-- <div style="display:none" class="sponsor-wp2024_modal">
     <div style="opacity:0;-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sponsor-wp2024_modal-form-block w-form">
       <form id="wf-form-Sponsor-WWP-2024" name="wf-form-Sponsor-WWP-2024" data-name="Sponsor WWP 2024" method="get" class="sponsor-wp2024_modal-form" data-wf-page-id="66bb23c9fdc66647ff719c49" data-wf-element-id="453f0816-4073-5d61-f438-ec95e6001757">
         <div class="heading-wp2024">Sponsoriser l'événement</div>
@@ -61,9 +61,9 @@
       </div>
     </div>
     <div aria-label="fermer la modal" role="button" data-w-id="aacab12f-8def-4aa8-50c2-13e59bead31c" style="opacity:0" class="sponsor-wp2024_modal-overlay"></div>
-  </div>
+  </div> -->
 
-  <Feedback />
+  <!-- <Feedback /> -->
 
   <Faq />
 
