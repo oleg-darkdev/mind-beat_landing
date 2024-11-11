@@ -27,8 +27,8 @@
 
   <div class="navbar_container ">
     <div class="navbar_menu-button w-nav-button flex flex-row justify-between w-full desctop-hidden">
-      <div class="h-10 w-auto">
-        <img src="/images/logo.svg" alt="MIND+BEAT logo">
+      <div class="">
+        <img src="/images/logo.svg" class='h-16' alt="MIND+BEAT logo">
       </div>
 
       <div class="menu-icon3" on:click={()=> showMenu = !showMenu}>
@@ -41,7 +41,7 @@
 
 
     <nav role="navigation" class=" navbar_menu w-nav-menu flex flex-row  mobile-hidden">
-      <div class=" h-10 w-40">
+      <div class=" h-6 w-24">
         <img src="/images/logo.svg" alt="MIND+BEAT logo">
       </div>
 
