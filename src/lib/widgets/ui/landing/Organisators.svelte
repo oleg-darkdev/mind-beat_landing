@@ -15,11 +15,11 @@
 
 <section class="bg-[#0000]">
     <div class="padding-section-medium">
-      <div class="orga-wp2024_component">
+      <div class="orga_component">
 
         <a name="organisators"></a>
 
-        <div animate="from-bottom" class="heading-wp2024">Organizatorzy</div>
+        <div animate="from-bottom" class="heading">Organizatorzy</div>
         <ul role="list" class="organisators-list">
           {#each organisators as {text, link, logo}}
           <li class="organisator-item">

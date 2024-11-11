@@ -12,25 +12,25 @@
 </svelte:head>
 
 
-<div class="page-wrapper is-wp2024">
+<div class="page-wrapper is">
 <!-- <NavBar /> -->
 
-<main class="main-wrapper is-wp2024">
+<main class="main-wrapper is">
   <HeaderApp />
 
-<section  class="section_inscription-wp2024">
+<section  class="section_inscription">
   <div class="padding-global padding-section-medium padding-bottom-huge">
     <a name="contact"></a>
     <div class="container-medium">
       <div class="text-align-center">
-        <h2 animate="from-bottom" class="heading-wp2024 z-index-2">Zegar elektroniczny</h2>
+        <h2 animate="from-bottom" class="heading z-index-2">Zegar elektroniczny</h2>
       </div>
       <div class="spacer-xlarge"></div>
 
 
 
-      <a href="/" class="inscription-wp2024_component w-inline-block mb-6">
-        <div class="inscription-wp2024_content-top">
+      <a href="/" class="inscription_component w-inline-block mb-6">
+        <div class="inscription_content-top">
           <div class="icon-embed-medium w-embed">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
               <path d="M6.36731 8.19457C6.36731 4.94849 8.99878 2.31702 12.2449 2.31702H35.7551C39.0011 2.31702 41.6326 4.94849 41.6326 8.19457V39.5415C41.6326 42.7876 39.0011 45.419 35.7551 45.419H12.2449C8.99878 45.419 6.36731 42.7876 6.36731 39.5415V8.19457Z" stroke="#146EF5" stroke-width="1.46939"></path>
@@ -47,9 +47,9 @@
         </div>
 
 
-        <div class="inscription-wp2024_content-bottom">
-          <h3 class="heading-wp2024 is-small">Link prowadzi do aplikacji strony trzeciej</h3>
-          <p class="text-size-medium text-color-neutral-wp2024">Aplikacja internetowa naszego turnieju jest w trakcie rozwoju.</p>
+        <div class="inscription_content-bottom">
+          <h3 class="heading is-small">Link prowadzi do aplikacji strony trzeciej</h3>
+          <p class="text-size-medium text-color-neutral">Aplikacja internetowa naszego turnieju jest w trakcie rozwoju.</p>
         </div>
         <div class="wp2024-overlay"></div>
       </a>
@@ -58,8 +58,8 @@
 
 
   </div>
-   <div class="inscription-wp2024_background"></div>
-  <div  class="inscription-wp2024_canvas"></div>
+   <div class="inscription_background"></div>
+  <div  class="inscription_canvas"></div>
 </section>
 
 </main>

@@ -2,39 +2,39 @@
   import {upcomingTournaments, RegistrationBtn} from '$shared';
 </script>
 
-<header class="section_header-wp2024 mb-20">
+<header class="section_header mb-20">
     <div class="padding-global">
       <div class="container-large">
-        <div class="header-wp2024_component">
-          <h1 class="heading-wp2024 is-big">
+        <div class="header_component">
+          <h1 class="heading is-big">
             Gra umysłu i rytm serca.
           </h1>
 
-          <div class="header-wp2024_infos-wrapper">
+          <div class="header_infos-wrapper">
             <!-- {#each upcomingTournaments.slice(0,3) as {place, date, time, location}}
-            <div  class="header-wp2024_item">
+            <div  class="header_item">
               <a href="{location}" target='_blank '>
                 <div class="wp2024-tag">{place}</div>
               </a>
               <div class="text-size-large">{date}</div>
-              <div class="text-size-medium text-color-neutral-wp2024">Start {time}</div>
+              <div class="text-size-medium text-color-neutral">Start {time}</div>
             </div>
             {/each} -->
           </div>
 
-          <div class="header-wp2024_description-wrapper">
-            <p class="text-size-medium text-size-medium navbar-wp2024_button is-programme w-inline-block">
+          <div class="header_description-wrapper">
+            <p class="text-size-medium text-size-medium navbar_button is-agenda w-inline-block">
               1. Podejdź do <a href="https://mind-beat.vercel.app/#contact" class='wp2024-tag' target="_blank" >sędziego
                 </a>   i zarejestruj się w turnieju.
             </p>
-            <p class="text-size-medium text-size-medium navbar-wp2024_button is-programme w-inline-block">
+            <p class="text-size-medium text-size-medium navbar_button is-agenda w-inline-block">
               2. Zapoznaj się z <a href="https://mind-beat.vercel.app/#agenda" class='wp2024-tag' target="_blank" >harmonogramem turnieju
                 </a> i trzymaj się go.
             </p>
-            <p class="text-size-medium navbar-wp2024_button is-programme w-inline-block">
+            <p class="text-size-medium navbar_button is-agenda w-inline-block">
               3. Kliknij <a href="https://ralfs-gutmanis.github.io/novuss-clock/" class='wp2024-tag' target="_blank">link do elektronicznego zegara szachowego  </a>  i ustaw 600 sekund w ustawieniach.
             </p>
-            <p class="text-size-medium text-size-medium navbar-wp2024_button is-programme w-inline-block">
+            <p class="text-size-medium text-size-medium navbar_button is-agenda w-inline-block">
               4. Po zakończeniu gry - zgłoś wynik sędziemu.
             </p>
 
@@ -43,24 +43,24 @@
           </div>
 
           <!-- <div class='flex justify-end items-end content-end flex-col'>
-            <span class="date-countdown heading-wp2024 text-size-large">
+            <span class="date-countdown heading text-size-large">
               Harmonogram na rok
             </span>
-            <div class="date-countdown heading-wp2024 is-big">2024</div>
+            <div class="date-countdown heading is-big">2024</div>
           </div> -->
 
         </div>
       </div>
     </div>
-    <img src="images/bg-1.jpg" loading="lazy" alt="" class="header-wp2024_decoration">
+    <img src="images/bg-1.jpg" loading="lazy" alt="" class="header_decoration">
   </header>
 
 <style>
-.section_header-wp2024 {
+.section_header {
   z-index: 1;
   position: relative;
 }
-.button-wp2024_icon {
+.button_icon {
   /* z-index: 1;
   justify-content: center;
   align-items: center; */
@@ -71,21 +71,21 @@
   position: relative; */
   /* inset: 0 0 auto auto; */
 }
-.header-wp2024_item {
+.header_item {
   grid-row-gap: 0.5rem;
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-end;
   display: flex;
 }
-.header-wp2024_infos-wrapper {
+.header_infos-wrapper {
   grid-row-gap: 2rem;
   flex-flow: column;
   flex: none;
   display: flex;
 }
 
-.header-wp2024_component {
+.header_component {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   flex-flow: column;
@@ -104,11 +104,11 @@
 }
 
 @media screen and (max-width: 991px) {
-  .header-wp2024_item {
+  .header_item {
     justify-content: flex-start;
     align-items: flex-start;
   }
-  .header-wp2024_infos-wrapper {
+  .header_infos-wrapper {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     flex-flow: row;
@@ -119,7 +119,7 @@
     margin-top: 2rem;
     display: grid;
   }
-  .header-wp2024_component {
+  .header_component {
     grid-row-gap: 0rem;
     grid-template-columns: 1fr;
     height: auto;
@@ -131,10 +131,10 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header-wp2024_infos-wrapper {
+  .header_infos-wrapper {
     grid-template-columns: 1fr;
   }
-  .header-wp2024_component {
+  .header_component {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }

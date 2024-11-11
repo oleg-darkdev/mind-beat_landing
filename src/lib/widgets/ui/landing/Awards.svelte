@@ -4,7 +4,7 @@
 
 
 
-<section  class="section_inscription-wp2024">
+<section  class="section_inscription">
   <div class="padding-global padding-section-medium padding-bottom-huge">
     <!-- <a name=""></a> -->
     <div class="container-medium">
@@ -17,7 +17,7 @@
                     {award.title} <br/> miejsce
                 </span>
 
-                <ul class="text-color-neutral-wp2024 max-w-md list-disc list-inside space-y-1">
+                <ul class="text-color-neutral max-w-md list-disc list-inside space-y-1">
                     {#each award.awards as award}
                     <li class="">
                         {award}
@@ -35,8 +35,8 @@
         </div>
     {/each}
 </div>
-   <div class="inscription-wp2024_background"></div>
-  <div  class="inscription-wp2024_canvas"></div>
+   <div class="inscription_background"></div>
+  <div  class="inscription_canvas"></div>
 </div>
 </div>
 </section>

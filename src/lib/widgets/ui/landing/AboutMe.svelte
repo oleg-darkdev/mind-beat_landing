@@ -4,19 +4,19 @@
 </script>
 
 
-<section  class="section_inscription-wp2024">
+<section  class="section_inscription">
   <div class="padding-global padding-section-medium padding-bottom-huge">
     <a name="contact"></a>
     <div class="container-medium">
       <div class="text-align-center">
-        <h2 animate="from-bottom" class="heading-wp2024 z-index-2">Sędzia i organizator</h2>
+        <h2 animate="from-bottom" class="heading z-index-2">Sędzia i organizator</h2>
       </div>
       <div class="spacer-xlarge"></div>
 
 
 
-      <a href="/" class="inscription-wp2024_component w-inline-block mb-6">
-        <div class="inscription-wp2024_content-top">
+      <a href="/" class="inscription_component w-inline-block mb-6">
+        <div class="inscription_content-top">
           <div class="icon-embed-medium w-embed">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
               <path d="M6.36731 8.19457C6.36731 4.94849 8.99878 2.31702 12.2449 2.31702H35.7551C39.0011 2.31702 41.6326 4.94849 41.6326 8.19457V39.5415C41.6326 42.7876 39.0011 45.419 35.7551 45.419H12.2449C8.99878 45.419 6.36731 42.7876 6.36731 39.5415V8.19457Z" stroke="#146EF5" stroke-width="1.46939"></path>
@@ -33,24 +33,24 @@
         </div>
 
 
-        <div class="inscription-wp2024_content-bottom">
-          <h3 class="heading-wp2024 is-small">OLEG Dark.Dev</h3>
-          <p class="text-size-medium text-color-neutral-wp2024">Mistrz Białorusi w szachach.</p>
+        <div class="inscription_content-bottom">
+          <h3 class="heading is-small">OLEG Dark.Dev</h3>
+          <p class="text-size-medium text-color-neutral">Mistrz Białorusi w szachach.</p>
         </div>
         <div class="wp2024-overlay"></div>
       </a>
 
-      <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide ">
+      <div class="gallery-wrap gallery_gallery-wrapper splide ">
             <div class=" ">
-              <img src="/images/oleg-medvedev.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
+              <img src="/images/oleg-medvedev.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery_gallery-image">
             </div>
       </div>
     </div>
 
 
   </div>
-   <div class="inscription-wp2024_background"></div>
-  <div  class="inscription-wp2024_canvas"></div>
+   <div class="inscription_background"></div>
+  <div  class="inscription_canvas"></div>
 </section>
 
 

@@ -2,12 +2,12 @@
   import {faq} from '$shared';
 </script>
 
-<section class="section_sponsor-wp2024">
+<section class="section_sponsor">
   <div class="padding-global padding-section-medium">
     <a name="faq"></a>
 
 
-  <h2  class="heading-wp2024 text-center">F.A.Q.</h2>
+  <h2  class="heading text-center">F.A.Q.</h2>
     <div class="spacer-large"></div>
 
 
@@ -51,7 +51,7 @@
 }
 
 
-.inscription-wp2024_component .icon-embed-faq,
+.inscription_component .icon-embed-faq,
 .big-btn .icon-embed-faq {
   position: relative;
   z-index: 0;
@@ -60,7 +60,7 @@
   transition: top 200ms ease, right 200ms ease;
 }
 
-.inscription-wp2024_component:hover .icon-embed-faq,
+.inscription_component:hover .icon-embed-faq,
 .big-btn:hover .icon-embed-faq {
   top: -0.5rem;
   right: -0.5rem;

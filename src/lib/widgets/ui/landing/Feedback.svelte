@@ -1,27 +1,27 @@
-<section id="images" class="section_gallery-wp2024">
+<section id="images" class="section_gallery">
     <div class="padding-global padding-section-medium">
 
       <a name="report"></a>
 
       <div class="container-large">
-        <h2  class="heading-wp2024">Opinie</h2>
+        <h2  class="heading">Opinie</h2>
         <div class="spacer-large"></div>
 
-        <div  class="gallery-wp2024_component">
-          <div class="gallery-wp2024_testi-wrapper splide">
+        <div  class="gallery_component">
+          <div class="gallery_testi-wrapper splide">
             <div class="splide__track w-dyn-list">
-              <div role="list" class="gallery-wp2024_testi-list splide__list w-dyn-items">
-                <div role="listitem" class="gallery-wp2024_testi-item splide__slide w-dyn-item">
-                  <div class="gallery-wp2024_testi-author">
-                    <!-- images/66bb420ee6093e6b173a0398_philippe-marx.webp -->
-                    <img src="" loading="lazy" width="48" height="48" alt="" class="gallery-wp2024_testi-author-image">
-                    <div class="gallery-wp2024_testi-author-infos">
+              <div role="list" class="gallery_testi-list splide__list w-dyn-items">
+                <div role="listitem" class="gallery_testi-item splide__slide w-dyn-item">
+                <img src="images/photos/6.jpg" loading="lazy" width="1280" height="720" alt=""  class="gallery_lightbox-image">
+                  <!-- <div class="gallery_testi-author">
+                    <img src="" loading="lazy" width="48" height="48" alt="" class="gallery_testi-author-image">
+                    <div class="gallery_testi-author-infos">
                       <div class="text-weight-medium"> the printing and</div>
-                      <div class="text-color-neutral-wp2024">Lorem Ipsum is simply dummy text of</div>
+                      <div class="text-color-neutral">Lorem Ipsum is simply dummy text of</div>
                     </div>
                   </div>
-                  <p class="text-size-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                  <!-- <a  href="https://fr.linkedin.com/posts/philippe-marx_webflow-la-solution-tout-en-un-pour-la-cr%C3%A9ation-activity-7176213503282708481-PPNB" target="_blank" class="gallery-wp2024_testi-link w-inline-block">
+                  <p class="text-size-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+                  <!-- <a  href="https://fr.linkedin.com/posts/philippe-marx_webflow-la-solution-tout-en-un-pour-la-cr%C3%A9ation-activity-7176213503282708481-PPNB" target="_blank" class="gallery_testi-link w-inline-block">
                     <div class="icon-embed-xxsmall w-embed">
                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 16 16" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                         <path d="M3.44 4.89001C4.24 4.89001 4.88 4.24001 4.88 3.45001C4.88 2.66001 4.23 2.01001 3.44 2.01001C2.65 2.01001 2 2.66001 2 3.45001C2 4.24001 2.65 4.89001 3.44 4.89001ZM6.25 5.98001V14H8.73V10.04C8.73 8.99001 8.93 7.98001 10.22 7.98001C11.51 7.98001 11.51 9.18001 11.51 10.1V14H14V9.60001C14 7.44001 13.54 5.78001 11.02 5.78001C9.81 5.78001 9 6.44001 8.67 7.07001H8.64V5.97001H6.26L6.25 5.98001ZM2.2 5.98001H4.69V14H2.2V5.98001Z" fill="currentColor"></path>
@@ -33,7 +33,7 @@
             </div>
 
 
-            <div id="w-node-_64721ac8-7fe9-ca70-22cb-f57e3f75a853-ff719c49" class="splide__arrows">
+            <!-- <div  class="splide__arrows">
               <button class="splide__arrow splide__arrow--prev">
                 <div class="icon-embed-xsmall w-embed">
                   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
@@ -47,13 +47,12 @@
                     <path d="M4.29401 11.2079L15.88 11.2079L11.38 6.70795L12.794 5.29395L19.708 12.2079L12.794 19.1219L11.38 17.7079L15.88 13.2079L4.29401 13.2079L4.29401 11.2079Z" fill="currentColor"></path>
                   </svg>
                 </div>
-              </button>
-            </div>
+              </button> 
+            </div> -->
           </div>
 
-          <!-- images/66bb494a003eae67ca18afa3_video-webflow-watch-party-paris-2023.webp -->
-          <a href="#" class="video-wrap gallery-wp2024_lightbox-link w-inline-block w-lightbox">
-            <img src="" loading="lazy" width="1280" height="720" alt=""  class="gallery-wp2024_lightbox-image">
+          <a href="#" class="video-wrap gallery_lightbox-link w-inline-block w-lightbox">
+            <img src="images/photos/7.jpg" loading="lazy" width="1280" height="720" alt=""  class="gallery_lightbox-image">
             <div class="icon-embed-medium z-index-2 w-embed">
               <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 47 32" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                 <g clip-path="url(#clip0_62_118)">
@@ -70,12 +69,12 @@
           </a>
 
 
-          <div class="gallery-wrap gallery-wp2024_gallery-wrapper splide">
+          <div class="gallery-wrap gallery_gallery-wrapper splide">
             <div class="splide__track w-dyn-list">
-              <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
+              <div role="list" class="gallery_list splide__list w-dyn-items">
 
-                <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item">
-                  <img src="images/66bc6acd697b4fce73c12930_networking-wwp-2024.webp" loading="lazy" width="1500" height="1000" alt="" sizes="(max-width: 479px) 91vw, (max-width: 767px) 94vw, (max-width: 991px) 89vw, 34vw" class="gallery-wp2024_gallery-image">
+                <div role="listitem" class="gallery_gallery_item splide__slide w-dyn-item">
+                  <img src="images/photos/9.jpg" loading="lazy" alt="" class="w-full h-full gallery_gallery-image">
                 </div>
 
               </div>

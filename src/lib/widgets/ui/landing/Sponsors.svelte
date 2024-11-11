@@ -2,22 +2,22 @@
 import {PatronStart} from '$entities'
 </script>
 
-<section class="section_sponsor-wp2024">
+<section class="section_sponsor">
   <div class="padding-global padding-section-medium">
     <div class="container-large">
       <a name="sponsors"></a>
 
-      <h2  class="heading-wp2024">Sponsorzy</h2>
+      <h2  class="heading">Sponsorzy</h2>
       <div class="spacer-large"></div>
-      <div  class="sponsor-wp2024_list">
-        <div  class="sponsor-wp2024_item is-you-logo">
-          <div class="sponsor-wp2024_logo w-embed">
+      <div  class="sponsor_list">
+        <div  class="sponsor_item is-you-logo">
+          <div class="sponsor_logo w-embed">
 
           </div>
         </div>
 
-        <div class="sponsor-wp2024_item is-middle">
-          <div class="sponsor-wp2024_logo w-embed">
+        <div class="sponsor_item is-middle">
+          <div class="sponsor_logo w-embed">
             <img src="/images/logos/darkdev_turq.svg" alt="">
           </div>
         </div>
@@ -27,7 +27,7 @@ import {PatronStart} from '$entities'
 
       </div>
       <div class="spacer-large"></div>
-      <button data-w-id="42c7151f-b168-fff9-28fa-955e20d8a45d"  class="sponsor-wp2024_button">
+      <button data-w-id="42c7151f-b168-fff9-28fa-955e20d8a45d"  class="sponsor_button">
         <div class="text-size-large">jak zostać sponsorem?</div>
         <div class="icon-embed-small w-embed">
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">

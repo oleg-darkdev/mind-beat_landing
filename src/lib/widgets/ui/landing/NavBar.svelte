@@ -4,8 +4,8 @@
   let showMenu = false;
 </script>
 
-<div class="navbar-wp2024_component w-nav" role="banner">
-  <nav role="navigation" class="navbar-wp2024_menu {showMenu ? 'h-[22rem]': ''} w-nav-menu desctop-hidden">
+<div class="navbar_component w-nav py-2" role="banner">
+  <nav role="navigation" class="navbar_menu {showMenu ? 'h-[22rem]': ''} w-nav-menu desctop-hidden">
 
     <div class="relative">
       <div class="grid grid-cols-2 gap-4">
@@ -18,16 +18,16 @@
     {#if showMenu}
       <div class='flex flex-col'>
         {#each navigation as {title, link}}
-          <a href="{link}" class="navbar-wp2024_link w-nav-link">{title}</a>
+          <a href="{link}" class="navbar_link w-nav-link">{title}</a>
         {/each}
       </div>
     {/if}
   </nav>
 
 
-  <div class="navbar-wp2024_container ">
-    <div class="navbar-wp2024_menu-button w-nav-button flex flex-row justify-between w-full desctop-hidden">
-      <div class="h-auto w-20">
+  <div class="navbar_container ">
+    <div class="navbar_menu-button w-nav-button flex flex-row justify-between w-full desctop-hidden">
+      <div class="h-10 w-auto">
         <img src="/images/logo.svg" alt="MIND+BEAT logo">
       </div>
 
@@ -40,14 +40,14 @@
 
 
 
-    <nav role="navigation" class=" navbar-wp2024_menu w-nav-menu flex flex-row  mobile-hidden">
+    <nav role="navigation" class=" navbar_menu w-nav-menu flex flex-row  mobile-hidden">
       <div class=" h-10 w-40">
         <img src="/images/logo.svg" alt="MIND+BEAT logo">
       </div>
 
       <div class='mr-20'>
         {#each navigation as {title, link}}
-          <a href="{link}" class="navbar-wp2024_link w-nav-link">{title}</a>
+          <a href="{link}" class="navbar_link w-nav-link">{title}</a>
         {/each}
       </div>
 
@@ -66,18 +66,18 @@
   .mobile-hidden {
     display: none;
   }
-  .navbar-wp2024_menu-button {
+  .navbar_menu-button {
     z-index: 3;
     margin-left: -0.5rem;
     padding: 0;
     background-color: #0000;
   }
-    .navbar-wp2024_container {
+    .navbar_container {
     z-index: 2;
     flex-flow: row-reverse;
     grid-auto-columns: 1fr;
   }
-  .navbar-wp2024_menu {
+  .navbar_menu {
     z-index: 2;
     background-color: var(--wp-2024--neutral-dark);
     flex-flow: column;
@@ -92,7 +92,7 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .navbar-wp2024_menu {
+  .navbar_menu {
     /* height: 16rem; */
     padding-top: 1rem;
     padding-left: 1.25rem;
@@ -108,10 +108,10 @@
 
 
 
-.navbar-wp2024_menu-button {
+.navbar_menu-button {
   padding: 0;
 }
-.navbar-wp2024_container {
+.navbar_container {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   grid-template-rows: auto;
